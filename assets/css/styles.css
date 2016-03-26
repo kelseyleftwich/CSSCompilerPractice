@@ -1,20 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Neuton:400,300,700);
-
-.container {
-	background: #FEFAEC;
-	width: 100%;
-	height: 100%;
-}
-
-h1,h2,h3,h4,h5,h6 {
-	color: #625772;
-	font-family: Montserrat, Helvetica, sans-serif;
-
-}
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Neuton);
 
 body {
 	background-color: #FEFAEC;
 	margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #625772;
+	font-family: Montserrat, Arial, Helvetica, sans-serif;
+
 }
 
 nav {
@@ -65,7 +59,7 @@ nav a {
 	width: 50%;
 	text-align: center;
 	color: #ffffff;
-	font-family: Neuton, Helvetica, sans-serif;
+	font-family: Neuton, "Times New Roman", Times, serif;
 	font-size: 2rem;
 	word-wrap: break-word;
 }
@@ -74,7 +68,7 @@ nav a {
 	width: 40%;
 	color: #ffffff;
 	word-wrap: break-word;
-	font-family: Neuton, Helvetica, sans-serif;
+	font-family: Neuton, "Times New Roman", Times, serif;
 	padding-left: 60px;
 	text-align: center;
 }
@@ -107,7 +101,7 @@ nav a {
 .products p {
 	margin: 0;
 	font-size: 1.5rem;
-	font-family: Neuton, Helvetica, sans-serif;
+	font-family: Neuton, "Times New Roman", Times, serif;
 }
 
 .products img {
@@ -131,7 +125,7 @@ nav a {
 	width: 25%;
 	background-color: #A9EEE6;
 	float: right;
-	font-family: Neuton, Helvetica, sans-serif;
+	font-family: Neuton, "Times New Roman", Times, serif;
 	font-size: 1.5rem;
 }
 
@@ -151,7 +145,7 @@ footer {
 footer p {
 	text-align: center;
 	color: #ffffff;
-	font-family: Neuton, Helvetica, sans-serif;
+	font-family: Neuton, "Times New Roman", Times, serif;
 }
 
 footer ul {
