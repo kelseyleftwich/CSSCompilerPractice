@@ -1,0 +1,174 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+#menu {
+	background-color: #625772;
+	list-style-type: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: 1;
+}
+
+#menu > li {
+	float: left;
+}
+
+#menu > li > a {
+	display: block;
+	padding: 14px 16px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+
+#menu > li:hover {
+	background-color: #91899c;
+}
+
+.main {
+	/*width: 80%;
+	margin: 0 auto;*/
+	background-color: white;
+}
+
+.hero {
+	display: block;
+	padding: 60px;
+	margin-top: 50px;
+	background-image: url('../images/hero.jpeg');
+	background-size: 100%;
+}
+
+.head > h1, .head > h2, .head >p  {
+	color: white;
+}
+
+.head > h1 {
+	font-size: 3em;
+}
+
+.head > p {
+	width: 33%;
+}
+
+div.products {
+	width: 80%;
+	float: left;
+	padding: 8px;
+}
+
+#products > h2 {
+	padding-left: 40px;
+}
+
+ul.products {
+	list-style-type: none;
+}
+
+ul.products > li.item > a > img {
+	max-width: 200px;
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+	border-radius: 5px;
+}
+
+.item > h3, .item > p {
+	margin-left: 8px;
+}
+
+.sidebar {
+/* 	float: left;
+width: 15%;
+margin: 16px 8px;
+padding: 30px;
+background-color: #468966;
+color: white; */
+}
+
+.sidebar > h2 {
+	margin: 0;
+}
+
+.sidebar >ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar >ol > li {
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	display: block;
+	bottom: 0;
+	background-color: #625772;
+	color: white;
+	clear: both;
+	padding: 1em;
+}
+
+
+
+footer > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+}
+
+footer > ul > li {
+	float: left;
+	margin-right: 8px;
+}
+
+footer > ul > li > a > img {
+	max-width: 25px;
+
+}
+
+
+#flag {
+  float: left;
+  width: 280px;
+  height: 175px;
+  padding-top: 15px;
+  position: relative;
+  background: #468966;
+  color: white;
+  text-align: center;
+  z-index: 0;
+}
+#flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 23px solid white;
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+}

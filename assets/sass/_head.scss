@@ -1,0 +1,19 @@
+.hero {
+	display: block;
+	padding: 60px;
+	margin-top: 50px;
+	background-image: url('../images/hero.jpeg');
+	background-size: 100%;
+}
+
+.head > h1, .head > h2, .head >p  {
+	color: white;
+}
+
+.head > h1 {
+	font-size: 3em;
+}
+
+.head > p {
+	width: 33%;
+}

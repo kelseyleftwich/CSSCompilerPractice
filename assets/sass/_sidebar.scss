@@ -1,0 +1,36 @@
+.sidebar > h2 {
+	margin: 0;
+}
+
+.sidebar >ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+.sidebar >ol > li {
+	margin: 0;
+	padding: 0;
+}
+
+#flag {
+  float: left;
+  width: 280px;
+  height: 175px;
+  padding-top: 15px;
+  position: relative;
+  background: $flag-color;
+  color: white;
+  text-align: center;
+  z-index: 0;
+}
+#flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 23px solid $main-bg-color;
+  border-left: 140px solid transparent;
+  border-right: 140px solid transparent;
+}

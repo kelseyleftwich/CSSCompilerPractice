@@ -1,0 +1,25 @@
+div.products {
+	width: 80%;
+	float: left;
+	padding: 8px;
+}
+
+#products > h2 {
+	padding-left: 40px;
+}
+
+ul.products {
+	list-style-type: none;
+}
+
+ul.products > li.item > a > img {
+	max-width: 200px;
+	display: inline-block;
+	float: left;
+	margin-right: 8px;
+	border-radius: 5px;
+}
+
+.item > h3, .item > p {
+	margin-left: 8px;
+}
