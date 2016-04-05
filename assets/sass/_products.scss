@@ -4,22 +4,37 @@ div.products {
 	padding: 8px;
 }
 
-#products > h2 {
-	padding-left: 40px;
+#products {
+	h2 {
+		padding-left: 40px;
+	}
 }
 
 ul.products {
 	list-style-type: none;
 }
 
-ul.products > li.item > a > img {
-	max-width: 200px;
-	display: inline-block;
-	float: left;
-	margin-right: 8px;
-	border-radius: 5px;
+ul.products {
+	img {
+		max-width: 200px;
+		display: inline-block;
+		float: left;
+		margin-right: 16px;
+		border-radius: 5px;
+	}
 }
 
-.item > h3, .item > p {
-	margin-left: 8px;
+
+
+.item {
+	padding-bottom: 16px;
+	border-bottom: 1px solid rgba( gray, .5 );
+	
+	&:first-child {
+		border-top: 1px solid rgba( gray, .5 );
+	}
+
+	&:last-child {
+		border-bottom: 0px solid rgba( gray, .5 );
+	}
 }

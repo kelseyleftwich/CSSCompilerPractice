@@ -6,14 +6,15 @@
 	background-size: 100%;
 }
 
-.head > h1, .head > h2, .head >p  {
+.head {
+	h1, h2, p  {
 	color: white;
-}
+	}
 
-.head > h1 {
-	font-size: 3em;
-}
-
-.head > p {
-	width: 33%;
+	h1{
+		font-size: 3em;
+	}
+	p {
+		width: 33%;
+	}
 }

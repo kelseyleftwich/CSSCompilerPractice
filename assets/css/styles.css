@@ -31,17 +31,15 @@ body {
   padding: 0;
   z-index: 1; }
 
-#menu > li {
+#menu li {
   float: left; }
-
-#menu > li > a {
-  display: block;
-  padding: 14px 16px;
-  color: white;
-  text-decoration: none;
-  text-align: center; }
-
-#menu > li:hover {
+  #menu li a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    text-align: center; }
+#menu li:hover {
   background-color: #91899c; }
 
 .hero {
@@ -51,13 +49,11 @@ body {
   background-image: url("../images/hero.jpeg");
   background-size: 100%; }
 
-.head > h1, .head > h2, .head > p {
+.head h1, .head h2, .head p {
   color: white; }
-
-.head > h1 {
+.head h1 {
   font-size: 3em; }
-
-.head > p {
+.head p {
   width: 33%; }
 
 div.products {
@@ -65,33 +61,38 @@ div.products {
   float: left;
   padding: 8px; }
 
-#products > h2 {
+#products h2 {
   padding-left: 40px; }
 
 ul.products {
   list-style-type: none; }
 
-ul.products > li.item > a > img {
+ul.products img {
   max-width: 200px;
   display: inline-block;
   float: left;
-  margin-right: 8px;
+  margin-right: 16px;
   border-radius: 5px; }
 
-.item > h3, .item > p {
-  margin-left: 8px; }
+.item {
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5); }
+  .item:first-child {
+    border-top: 1px solid rgba(128, 128, 128, 0.5); }
+  .item:last-child {
+    border-bottom: 0px solid rgba(128, 128, 128, 0.5); }
 
-.sidebar > h2 {
+.sidebar h2 {
   margin: 0; }
 
-.sidebar > ol {
+.sidebar ol {
   list-style-type: none;
   padding: 0; }
+  .sidebar ol li {
+    margin: 0;
+    padding: 0; }
 
-.sidebar > ol > li {
-  margin: 0;
-  padding: 0; }
-
+/* flag css styling source: https://css-tricks.com/examples/ShapesOfCSS/*/
 #flag {
   float: left;
   width: 280px;
@@ -122,17 +123,17 @@ footer {
   clear: both;
   padding: 1em; }
 
-footer > ul {
+footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden; }
 
-footer > ul > li {
+footer ul li {
   float: left;
   margin-right: 8px; }
 
-footer > ul > li > a > img {
+footer img {
   max-width: 25px; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -9,18 +9,19 @@
 	z-index: 1;
 }
 
-#menu > li {
-	float: left;
-}
+#menu{
+	li {
+		float: left;
+		a {
+			display: block;
+			padding: 14px 16px;
+			color: white;
+			text-decoration: none;
+			text-align: center;
+		}
+	}
 
-#menu > li > a {
-	display: block;
-	padding: 14px 16px;
-	color: white;
-	text-decoration: none;
-	text-align: center;
-}
-
-#menu > li:hover {
-	background-color: $nav-item-hover;
+	li:hover {
+		background-color: $nav-item-hover;	
+	}
 }

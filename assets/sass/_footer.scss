@@ -9,20 +9,28 @@ footer {
 
 
 
-footer > ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+footer {
 
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
 }
 
-footer > ul > li {
-	float: left;
-	margin-right: 8px;
+footer {
+
+	ul {
+		li {
+			float: left;
+			margin-right: 8px;
+		}
+	}
 }
 
-footer > ul > li > a > img {
-	max-width: 25px;
-
+footer {
+	img {
+		max-width: 25px;
+	}
 }

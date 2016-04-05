@@ -1,17 +1,22 @@
-.sidebar > h2 {
-	margin: 0;
+.sidebar {
+  h2 {
+    margin: 0;
+  }
+} 
+
+.sidebar {
+  ol {
+   list-style-type: none;
+   padding: 0;
+
+   li {
+    margin: 0;
+    padding: 0;
+    }
+  }
 }
 
-.sidebar >ol {
-	list-style-type: none;
-	padding: 0;
-}
-
-.sidebar >ol > li {
-	margin: 0;
-	padding: 0;
-}
-
+/* flag css styling source: https://css-tricks.com/examples/ShapesOfCSS/ */
 #flag {
   float: left;
   width: 280px;
